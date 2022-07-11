@@ -1,6 +1,6 @@
 @font-face {
     font-family: Lexenddeca;
-    src: url(font/lexenddeca-variablefont_wght-webfont.woff);
+    src: url(./font/lexenddeca-variablefont_wght-webfont.woff);
 }
 
 * {
@@ -27,6 +27,15 @@ img{
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+}
+
+h1{
+    font-family: 'Lexenddeca', 'Calibri', sans-serif;
+    font-size: 50px;
+    line-height: 1.3em;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #1D1D1D;
 }
 
 .navbar{
@@ -57,7 +66,44 @@ img{
 
 .mobile-nav-button{
     display: none;
+    margin-bottom: 10px;
 }
+
+.mobile-nav-menu-icon {
+    display: block;
+    width: 51px;
+    height: 51px;
+    transition: 0.3s ease transform;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+.mobile-nav-menu-icon div {
+    width: 6px;
+    height: 6px;
+    background-color: #E9D8C4;
+    margin-left: 0;
+    border-radius: 4px;
+    transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
+      0.3s ease background-color;
+
+  }
+  
+.mobile-nav-menu-icon div:first-child {
+    width: 35px;
+  }
+  
+.mobile-nav-menu-icon div:nth-child(2) {
+    width: 23px;
+  }
+  
+.mobile-nav-menu-icon div:last-child {
+    width: 44px;
+    margin-bottom: 0;
+  }
 
 .nav-logo{
     margin-bottom:10px;
@@ -110,6 +156,10 @@ img{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    background-image: url(./img/logo-icon-grey.svg);
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: 0 0,50% 50%;
 }
 
 .hero-main-wrapper{
@@ -160,13 +210,38 @@ img{
 
 .pimg1{
     position: relative;
-    background-image: url('img/stock2.jpg');
+    background-image: url(./img/stock.jpg);
     z-index: 1;
     width: 60vw;
     height: 55vh;
     margin-right: 5%;
     margin-left: auto;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tea-section{
+    padding-top: 60px;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 900px;
+    background-color: #E9D8C4;
+    text-align: center;
+}
+
+.tea-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tea-item{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/stock2.jpg);
+    background-size: 600px, 400px;
+    background-position: -210px -50px, 50% 50%;
     background-repeat: no-repeat;
 }
 
@@ -181,9 +256,6 @@ img{
 
     .mobile-nav-button{
         display: block;
-        width: 22px;
-        height: 22px;
-        margin-bottom: 10px;
     }
 
     .nav-image{
