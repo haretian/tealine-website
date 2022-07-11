@@ -16,6 +16,10 @@ body{
     margin: 0px;
     line-height: 20px;
     background-color: #1D1D1D;
+    background-image: url(./img/logo-icon-grey.svg);
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: 0 0,50% 50%;
 }
 
 div{
@@ -156,10 +160,6 @@ h1{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-image: url(./img/logo-icon-grey.svg);
-    background-repeat: space;
-    background-attachment: fixed;
-    background-position: 0 0,50% 50%;
 }
 
 .hero-main-wrapper{
@@ -222,14 +222,24 @@ h1{
 
 .tea-section{
     padding-top: 60px;
-    padding-right: 5%;
-    padding-left: 5%;
     height: 900px;
     background-color: #E9D8C4;
     text-align: center;
 }
 
+#clip-title{
+    background-image: url(./img/logo-icon-grey.svg);
+    background-color: #1D1D1D;
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: 0 0,50% 50%;
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .tea-content-wrapper{
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -238,10 +248,10 @@ h1{
 
 .tea-item{
     width: 300px;
-    height: 300px;
-    background-image: url(./img/stock2.jpg);
-    background-size: 600px, 400px;
-    background-position: -210px -50px, 50% 50%;
+    height: 400px;
+    background-image: url(./img/stock2.png);
+    background-size: 300px;
+    background-position: 0 0, 50% 50%;
     background-repeat: no-repeat;
 }
 
