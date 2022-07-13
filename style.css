@@ -394,14 +394,13 @@ img{
 .order-section{
     position: relative;
     overflow: hidden;
-    padding: 15% 5% 15% 5%;
+    padding: 5% 5% 5% 5%;
     height: 65vh;
     display: flex;;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-
 }
 
 .order-link{
@@ -491,10 +490,18 @@ img{
     .tea-item-container{
         width: 400px;
         height: 400px;
+        margin: 50px 20px 20px 20px;
     }
 
     .tea-content-wrapper{
+        margin-top: 0px;
         flex-direction: column;
+    }
+  
+    .order-section{
+        padding: 15% 5% 15% 5%;
+        gap: 60px;
+        height: 100%;
     }
 }
 
@@ -552,7 +559,6 @@ img{
     }
 
     .tea-content-wrapper{
-        margin-top: 30px;
         flex-direction: column;
     }
 
