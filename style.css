@@ -418,7 +418,7 @@ img{
 .contact-section{
     position: relative;
     overflow: hidden;
-    padding: 15% 5% 15% 5%;
+    padding: 5%;
     background-color: #424242;
     display: flex;
     justify-content: space-between;
@@ -499,13 +499,14 @@ img{
     }
   
     .order-section{
-        padding: 15% 5% 15% 5%;
+        padding: 5% 15% 5% 15%;
         gap: 60px;
         height: 100%;
     }
+
 }
 
-@media screen and (max-width:441px) {
+@media screen and (max-width:481px) {
     
     .section-title{
         font-size: 40px;
@@ -563,6 +564,7 @@ img{
     }
 
     .contact-section{
+        padding: 15% 5% 15% 5%;
         text-align: center;
         align-items: center;
         flex-direction: column;
