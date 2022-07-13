@@ -28,13 +28,13 @@ img{
     display: inline-block;
 }
 
-h1{
+.section-title{
     font-family: 'Lexend Deca', 'Calibri', sans-serif;
     font-size: 50px;
     line-height: 1.3em;
     letter-spacing: 1.5px;
     font-weight: 600;
-    color: #1D1D1D;
+    color: #E9D8C4;
 }
 
 .navbar{
@@ -171,12 +171,6 @@ h1{
 
 .hero-title{
     max-width: 1000px;
-    font-family: 'Lexend Deca', 'Calibri', sans-serif;
-    font-size: 50px;
-    line-height: 1.3em;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-    color: #E9D8C4;
 }
 
 /*.hero-link{
@@ -216,13 +210,36 @@ h1{
 }
 
 .tea-section{
-    padding-top: 30px;
+    padding-top: 70px;
     height: 700px;
     background-color: #E9D8C4;
     text-align: center;
 }
 
+.tea-title-wrapper{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: inline-block;
+    z-index: 4;
+}
+
 #tea-title-clip{
+    color:#E19C68;
+    z-index: 4;
+    transition: 0.3s ease-out;
+}
+
+.tea-title-wrapper-effect{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+#tea-title-a{
     position: relative;
     background-image: url(./img/logo-icon-grey.svg);
     background-color: #1D1D1D;
@@ -231,20 +248,33 @@ h1{
     background-position: 0 0,50% 50%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    z-index: 5;
-}
-
-#tea-title-a{
-    position: absolute;
-    width: 100%;
-    color:#A1C180;
-    z-index: 4;
+    transition: 0.3s ease-out;
 }
 
 #tea-title-b{
-    position: absolute;
-    width: 100%;
-    color: #E19C68;
+    color: #A1C180;
+    transition: 0.3s ease-out;
+}
+
+.tea-section:hover #tea-title-a{
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tea-section:hover #tea-title-b{
+    margin-top:10px;
+    margin-left:10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.tea-effect-top{
+    z-index: 5;
+}
+
+.tea-effect-bottom{
     z-index: 3;
 }
 
@@ -359,6 +389,68 @@ h1{
     margin-left:40px;
     margin-right: -40px;
     margin-bottom: -40px;
+}
+
+.order-section{
+    position: relative;
+    overflow: hidden;
+    padding: 7% 5% 7% 5%;
+    height: 600px;
+    display: flex;;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.order-link{
+    text-decoration: none;
+    padding: 10px;
+    border: 4px solid #E9D8C4;
+    transition: background-color .3s, color .3s;
+}
+
+.order-link:hover{
+    background-color: #E9D8C4;
+    color: #424242
+}
+
+.contact-section{
+    position: relative;
+    overflow: hidden;
+    padding: 5%;
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-text{
+    font-family: 'Lexend Deca', 'Calibri', sans-serif;
+    font-size: 15px;
+    line-height: 1.3em;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #E9D8C4;
+    margin-top: 10px;
+}
+
+.company-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-image{
+    height: 60px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 991px) {
