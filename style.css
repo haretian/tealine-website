@@ -211,7 +211,7 @@ img{
 
 .tea-section{
     padding-top: 70px;
-    height: 700px;
+    padding-bottom: 70px;
     background-color: #E9D8C4;
     text-align: center;
 }
@@ -394,8 +394,8 @@ img{
 .order-section{
     position: relative;
     overflow: hidden;
-    padding: 7% 5% 7% 5%;
-    height: 600px;
+    padding: 15% 5% 15% 5%;
+    height: 65vh;
     display: flex;;
     align-items: center;
     flex-direction: column;
@@ -406,7 +406,7 @@ img{
 
 .order-link{
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     border: 4px solid #E9D8C4;
     transition: background-color .3s, color .3s;
 }
@@ -419,7 +419,7 @@ img{
 .contact-section{
     position: relative;
     overflow: hidden;
-    padding: 5%;
+    padding: 15% 5% 15% 5%;
     background-color: #424242;
     display: flex;
     justify-content: space-between;
@@ -453,7 +453,24 @@ img{
     align-items: flex-end;
 }
 
+@media screen and (max-width: 1321px) {
+    .tea-item-container{
+        width: 300px;
+        height: 300px;
+    }
+
+    .section-title{
+        font-size: 40px;
+    }
+}
+
+
 @media screen and (max-width: 991px) {
+    
+    .section-title{
+        font-size: 50px;
+    }
+
     .navbar{
         padding-top: 25px;
     }
@@ -468,5 +485,88 @@ img{
 
     .nav-image{
         content: url(img/logo-icon-white.svg);
+    }
+
+    .tea-item-container{
+        width: 400px;
+        height: 400px;
+    }
+
+    .tea-content-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:441px) {
+    
+    .section-title{
+        font-size: 40px;
+    }
+
+    .navbar{
+        padding-top: 25px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .mobile-nav-button{
+        display: block;
+    }
+
+    .nav-image{
+        content: url(img/logo-icon-white.svg);
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pimg1{
+        width: 70vw;
+        height: 30vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .hero-main-wrapper{
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero-title{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .tea-item-container{
+        width: 300px;
+        height: 300px;
+    }
+
+    .tea-content-wrapper{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .contact-section{
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .company-container{
+        align-items: center;
+    }
+
+    .contact-container{
+        align-items: center;
+        margin-top: 30px;
     }
 }
