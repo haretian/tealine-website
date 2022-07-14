@@ -104,7 +104,13 @@ img{
 .mobile-nav-menu-icon div:last-child {
     width: 44px;
     margin-bottom: 0;
-  }
+}
+
+.mobile-nav-menu-icon.checked{
+    top: 25px;
+    left: 5%;
+    position: fixed;
+}
 
 .nav-logo{
     margin-bottom:10px;
