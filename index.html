@@ -6,8 +6,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:500,600">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script type="text/javascript" src="./scroll.js"></script>
+        <script type="text/javascript" src="./mobile-menu.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name=author content="Matthew Li">
@@ -21,13 +20,14 @@
         <div class="color"></div>
         <div class="navbar navbar-mobile">
             <div class="nav-container">
-                <a data-w-id="036aec83-3fe8-8111-61ea-dcd4e7ca2e48" href="./#" class="mobile-nav-button">
-                    <label class="mobile-nav-menu-icon" for="menu_checkbox">
+                <div class="mobile-nav-button">
+                    <input type="checkbox" id="mobile-nav-checkbox" name="checkbox">
+                    <label class="mobile-nav-menu-icon" for="mobile-nav-checkbox">
                         <div></div>
                         <div></div>
                         <div></div>
                     </label>
-                </a>
+                </div>
 
                 <a href="/" aria-current="page" class="nav-logo">
                     <img class='nav-image' src="img/logo-white.svg">
@@ -56,6 +56,14 @@
                     </div>
                 </div>
             </div>
+
+            <div id="mobile-nav-background">
+                <a href="./#home" class="section-title mobile-nav-item">home.</a>
+                <a href="./#teas" class="section-title mobile-nav-item">teas.</a>
+                <a href="./#order" class="section-title mobile-nav-item">order.</a>
+                <a href="./#contact" class="section-title mobile-nav-item">contact.</a>
+            </div>
+
         </div>
 
         <div class="hero-section" id="">

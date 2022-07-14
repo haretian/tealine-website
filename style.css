@@ -70,16 +70,17 @@ img{
 }
 
 .mobile-nav-menu-icon {
+    position: relative;
     display: block;
     width: 51px;
     height: 51px;
     transition: 0.3s ease transform;
     cursor: pointer;
-    z-index: 100;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
+    z-index: 100;
+}
 
 .mobile-nav-menu-icon div {
     width: 6px;
@@ -145,6 +146,36 @@ img{
 .inline-block{
     max-width: 100%;
     display: inline-block;
+}
+
+#mobile-nav-background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #424242be;
+    transition: all 0.5s ease-in-out;
+    transform: translate(-100vw, 0);
+}
+
+.mobile-nav-item{
+    text-decoration: none;
+}
+
+#mobile-nav-checkbox {
+    display: none;
+}
+
+#mobile-nav-background.checked{
+    transform: translate(0, 0);
 }
 
 .hero-section{
@@ -322,7 +353,7 @@ img{
     background-size: 400px;
     background-position: -40px -220px, 50% 50%;
     background-repeat: no-repeat;
-    z-index: 100;
+    z-index: 2;
 }
 
 .tea-item-background.tea-classic{
@@ -337,7 +368,7 @@ img{
     background-size: 400px;
     background-position: -40px -220px, 50% 50%;
     background-repeat: no-repeat;
-    z-index: 100;
+    z-index: 2;
 }
 
 .tea-item-background.tea-jasmine{
@@ -349,7 +380,7 @@ img{
     background-size: 400px;
     background-position: -40px -220px, 50% 50%;
     background-repeat: no-repeat;
-    z-index: 100;
+    z-index: 2;
 }
 
 .tea-item-background.tea-thai{
