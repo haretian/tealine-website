@@ -471,7 +471,6 @@ img{
     letter-spacing: 1.5px;
     font-weight: 500;
     color: #E9D8C4;
-    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -479,6 +478,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .logo-image{
@@ -489,6 +489,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    gap: 20px;
 }
 
 @media screen and (max-width: 1321px) {
@@ -651,6 +652,7 @@ img{
         text-align: center;
         align-items: center;
         flex-direction: column;
+        gap: 40px;
     }
 
     .company-container{
@@ -659,6 +661,5 @@ img{
 
     .contact-container{
         align-items: center;
-        margin-top: 30px;
     }
 }
