@@ -117,7 +117,7 @@ img{
 }
 
 .nav-image{
-    height: 51px;
+    width: 170px;
 }
 
 .nav-menu{
@@ -237,14 +237,15 @@ img{
 
 .pimg1{
     position: relative;
-    background-image: url(./img/stock.jpg);
+    background-image: url(./img/ingredients.jpg);
     z-index: 1;
     width: 60vw;
-    height: 55vh;
+    height: 65vh;
     margin-right: 5%;
     margin-left: auto;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tea-section{
@@ -355,9 +356,9 @@ img{
 }
 
 .tea-item.tea-classic{
-    background-image: url(./img/stock2.jpg);
+    background-image: url(./img/classic.jpg);
     background-size: 400px;
-    background-position: -40px -220px, 50% 50%;
+    background-position: -18px -160px, 50% 50%;
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -370,9 +371,9 @@ img{
 }
 
 .tea-item.tea-jasmine{
-    background-image: url(./img/stock2.jpg);
-    background-size: 400px;
-    background-position: -40px -220px, 50% 50%;
+    background-image: url(./img/jasmine.jpg);
+    background-size: 430px;
+    background-position: -60px -185px, 50% 50%;
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -382,9 +383,9 @@ img{
 }
 
 .tea-item.tea-thai{
-    background-image: url(./img/stock2.jpg);
+    background-image: url(./img/thai.jpg);
     background-size: 400px;
-    background-position: -40px -220px, 50% 50%;
+    background-position: -40px -155px, 50% 50%;
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -506,17 +507,17 @@ img{
 
     .tea-item.tea-classic{
         background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-position: -15px -120px, 50% 50%;
     }
 
     .tea-item.tea-jasmine{
-        background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-size: 315px;
+        background-position: -40px -130px, 50% 50%;
     }
 
     .tea-item.tea-thai{
         background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-position: -30px -115px, 50% 50%;
     }
 
     .section-title{
@@ -560,17 +561,17 @@ img{
 
     .tea-item.tea-classic{
         background-size: 400px;
-        background-position: -40px -220px, 50% 50%;
+        background-position: -18px -160px, 50% 50%;
     }
 
     .tea-item.tea-jasmine{
-        background-size: 400px;
-        background-position: -40px -220px, 50% 50%;
+        background-size: 430px;
+        background-position: -60px -185px, 50% 50%;
     }
 
     .tea-item.tea-thai{
         background-size: 400px;
-        background-position: -40px -220px, 50% 50%;
+        background-position: -40px -155px, 50% 50%;
     }
   
     .order-section{
@@ -640,17 +641,17 @@ img{
 
     .tea-item.tea-classic{
         background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-position: -15px -120px, 50% 50%;
     }
 
     .tea-item.tea-jasmine{
-        background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-size: 315px;
+        background-position: -40px -130px, 50% 50%;
     }
 
     .tea-item.tea-thai{
         background-size: 300px;
-        background-position: -25px -160px, 50% 50%;
+        background-position: -30px -115px, 50% 50%;
     }
 
     .contact-section{
