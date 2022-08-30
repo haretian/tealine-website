@@ -247,6 +247,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 15px;
 }
 
 .tea-section{
@@ -361,6 +362,7 @@ img{
     background-size: 400px;
     background-position: -18px -160px, 50% 50%;
     background-repeat: no-repeat;
+    border-radius: 15px;
     z-index: 2;
 }
 
@@ -369,6 +371,7 @@ img{
     background-image: url(img/logo-icon-grey.svg);
     background-repeat: space;
     background-attachment: fixed;
+    border-radius: 15px;
 }
 
 .tea-item.tea-jasmine{
@@ -376,11 +379,13 @@ img{
     background-size: 430px;
     background-position: -60px -185px, 50% 50%;
     background-repeat: no-repeat;
+    border-radius: 15px;
     z-index: 2;
 }
 
 .tea-item-background.tea-jasmine{
     background-color: #A1C180;
+    border-radius: 15px;
 }
 
 .tea-item.tea-thai{
@@ -388,11 +393,13 @@ img{
     background-size: 400px;
     background-position: -40px -155px, 50% 50%;
     background-repeat: no-repeat;
+    border-radius: 15px;
     z-index: 2;
 }
 
 .tea-item-background.tea-thai{
     background-color: #E19C68;
+    border-radius: 15px;
 }
 
 .tea-item-container.tea-classic:hover .tea-item.tea-classic{
