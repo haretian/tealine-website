@@ -136,6 +136,7 @@ img{
 .nav-link{
     padding: 15px 10px 10px;
     border-bottom: 3px solid transparent;
+    border-radius: 2px;
     /*-webkit-transition: border-color .3s; ???*/
     transition: border-color .3s;
     color: #E9D8C4;
@@ -356,7 +357,7 @@ img{
 }
 
 .tea-item.tea-classic{
-    background-image: url(./img/classic.jpg);
+    background-image: url(./img/classic-web.jpg);
     background-size: 400px;
     background-position: -18px -160px, 50% 50%;
     background-repeat: no-repeat;
@@ -371,7 +372,7 @@ img{
 }
 
 .tea-item.tea-jasmine{
-    background-image: url(./img/jasmine.jpg);
+    background-image: url(./img/jasmine-web.jpg);
     background-size: 430px;
     background-position: -60px -185px, 50% 50%;
     background-repeat: no-repeat;
@@ -383,7 +384,7 @@ img{
 }
 
 .tea-item.tea-thai{
-    background-image: url(./img/thai.jpg);
+    background-image: url(./img/thai-web.jpg);
     background-size: 400px;
     background-position: -40px -155px, 50% 50%;
     background-repeat: no-repeat;
@@ -440,7 +441,7 @@ img{
     position: relative;
     overflow: hidden;
     padding: 5% 5% 5% 5%;
-    height: 65vh;
+    height: 90vh;
     display: flex;;
     align-items: center;
     flex-direction: column;
@@ -452,6 +453,7 @@ img{
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     border: 4px solid #E9D8C4;
+    border-radius: 15px;
     transition: background-color .3s, color .3s;
 }
 
