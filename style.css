@@ -266,8 +266,8 @@ img{
     z-index: 4;
 }
 
-#tea-title-clip{
-    color:#E19C68;
+#tea-title-c{
+    color: #A1C180;
     z-index: 4;
     transition: 0.3s ease-out;
 }
@@ -293,7 +293,7 @@ img{
 }
 
 #tea-title-b{
-    color: #A1C180;
+    color:#E19C68;
     transition: 0.3s ease-out;
 }
 
