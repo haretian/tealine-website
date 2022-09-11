@@ -38,6 +38,17 @@ img{
     color: #E9D8C4;
 }
 
+.section-title-dark{
+    position: relative;
+    background-image: url(./img/logo-icon-grey.svg);
+    background-color: #1D1D1D;
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: 0 0,50% 50%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 .navbar{
     position:absolute;
     left:0;
@@ -251,8 +262,8 @@ img{
 }
 
 .tea-section{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #E9D8C4;
     text-align: center;
 }
@@ -448,8 +459,9 @@ img{
     position: relative;
     overflow: hidden;
     padding: 5% 5% 5% 5%;
-    height: 90vh;
-    display: flex;;
+    height: 100%;
+    gap: 50px;
+    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -467,6 +479,47 @@ img{
 .order-link:hover{
     background-color: #E9D8C4;
     color: #424242
+}
+
+.feedback-section{
+    position: relative;
+    background-color: #E9D8C4;
+    overflow: hidden;
+    padding: 5%;
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feedback-link{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border: 4px solid #1D1D1D;
+    border-radius: 15px;
+    background-color: #E9D8C4;
+    transition: background-color .3s, color .3s;
+}
+
+.feedback-link:hover{
+    color: #E9D8C4;
+    background-image: url(./img/logo-icon-grey.svg);
+    background-color: #1D1D1D;
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: 0 0,50% 50%;
+    -webkit-background-clip: border-box;
+}
+
+.button-text-dark{
+    transition: color .3s;
+}
+
+.feedback-link:hover .button-text-dark{
+    color: #E9D8C4;
 }
 
 .contact-section{
@@ -506,6 +559,21 @@ img{
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram{
+    background-image: url(./img/instagram-icon.png);
+    background-size: cover;
+    width: 29px;
+    height: 29px;
 }
 
 @media screen and (max-width: 1321px) {
@@ -557,6 +625,10 @@ img{
         content: url(img/logo-icon-white.svg);
     }
 
+    .tea-section{
+        padding: 15% 0% 15% 0%;
+    }
+
     .tea-item-container{
         width: 400px;
         height: 400px;
@@ -586,9 +658,14 @@ img{
     .order-section{
         padding: 15% 5% 15% 5%;
         gap: 60px;
-        height: 100%;
     }
-
+    
+    .feedback-section{
+        padding: 15% 5% 15% 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:481px) {
