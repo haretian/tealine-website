@@ -330,9 +330,18 @@ img{
     z-index: 3;
 }
 
+
 .tea-content-wrapper{
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tea-alignment-wrapper{
+    display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -413,6 +422,20 @@ img{
     border-radius: 15px;
 }
 
+.tea-item.tea-mango{
+    background-image: url(./img/mango-web-placeholder.jpg);
+    background-size: 400px;
+    background-position: -40px -155px, 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.tea-item-background.tea-mango{
+    background-color: #DFAE64;
+    border-radius: 15px;
+}
+
 .tea-item-container.tea-classic:hover .tea-item.tea-classic{
     margin-top:-40px;
     margin-left:-40px;
@@ -449,6 +472,20 @@ img{
 }
 
 .tea-item-container.tea-thai:hover .tea-item-background.tea-thai{
+    margin-top:40px;
+    margin-left:40px;
+    margin-right: -40px;
+    margin-bottom: -40px;
+}
+
+.tea-item-container.tea-mango:hover .tea-item.tea-mango{
+    margin-top:-40px;
+    margin-left:-40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.tea-item-container.tea-mango:hover .tea-item-background.tea-mango{
     margin-top:40px;
     margin-left:40px;
     margin-right: -40px;
@@ -598,6 +635,11 @@ img{
         background-position: -30px -115px, 50% 50%;
     }
 
+    .tea-item.tea-mango{
+        background-size: 300px;
+        background-position: 0px 0px, 50% 50%;
+    }
+
     .section-title{
         font-size: 40px;
     }
@@ -636,7 +678,7 @@ img{
         margin: 50px 20px 20px 20px;
     }
 
-    .tea-content-wrapper{
+    .tea-alignment-wrapper{
         margin-top: 0px;
         flex-direction: column;
     }
@@ -654,6 +696,11 @@ img{
     .tea-item.tea-thai{
         background-size: 400px;
         background-position: -40px -155px, 50% 50%;
+    }
+
+    .tea-item.tea-mango{
+        background-size: 400px;
+        background-position: 0px 0px, 50% 50%;
     }
   
     .order-section{
@@ -722,7 +769,7 @@ img{
         height: 300px;
     }
 
-    .tea-content-wrapper{
+    .tea-alignment-wrapper{
         flex-direction: column;
     }
 
@@ -739,6 +786,11 @@ img{
     .tea-item.tea-thai{
         background-size: 300px;
         background-position: -30px -115px, 50% 50%;
+    }
+
+    .tea-item.tea-mango{
+        background-size: 300px;
+        background-position: 0px 0px, 50% 50%;
     }
 
     .contact-section{
