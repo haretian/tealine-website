@@ -423,9 +423,9 @@ img{
 }
 
 .tea-item.tea-mango{
-    background-image: url(./img/mango-web-placeholder.jpg);
-    background-size: 400px;
-    background-position: -40px -155px, 50% 50%;
+    background-image: url(./img/mango-web.jpg);
+    background-size: 390px;
+    background-position: -20px -140px, 50% 50%;
     background-repeat: no-repeat;
     border-radius: 15px;
     z-index: 2;
@@ -636,8 +636,8 @@ img{
     }
 
     .tea-item.tea-mango{
-        background-size: 300px;
-        background-position: 0px 0px, 50% 50%;
+        background-size: 280px;
+        background-position: -15px -98px, 50% 50%;
     }
 
     .section-title{
@@ -699,8 +699,8 @@ img{
     }
 
     .tea-item.tea-mango{
-        background-size: 400px;
-        background-position: 0px 0px, 50% 50%;
+        background-size: 390px;
+        background-position: -20px -140px, 50% 50%;
     }
   
     .order-section{
@@ -789,8 +789,8 @@ img{
     }
 
     .tea-item.tea-mango{
-        background-size: 300px;
-        background-position: 0px 0px, 50% 50%;
+        background-size: 280px;
+        background-position: -15px -98px, 50% 50%;
     }
 
     .contact-section{
